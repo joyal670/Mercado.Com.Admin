@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mercadocomadmin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.Chat_Activity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activity.ViewProducts_Activity"
+            android:screenOrientation="locked"/>
+        <activity android:name=".Activity.OnGoingPrescription_Activity"
+            android:screenOrientation="locked"/>
+        <activity android:name=".Activity.UnDeliverdPrescription_Activity"
+            android:screenOrientation="locked"/>
+        <activity android:name=".Activity.DeliverdPrescription_Activity"
+            android:screenOrientation="locked"/>
+        <activity
+            android:name=".Activity.DeliveryOrders_Activity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Activity.ShopOrders_Activity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Activity.ViewDeliveryBoys_Activity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Activity.ViewShopOwners_Activity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Activity.ViewUsers_Activity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Activity.OrderedShopDetails_Activity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.MyAccount_Activity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Activity.Login_Activity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.SplashScreen"
+            android:screenOrientation="locked">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    android:theme="@style/AppTheme.NoActionBar" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.MainActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:id="@+id/layout_root">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="New Delivery Boy"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:background="@color/colorBlue"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Info"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/newdeliveryboyname"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/address_style"
+            android:hint="User Name" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="Email Address"
+            android:id="@+id/newdeliveryboyemail"
+            android:layout_margin="10dp"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:background="@drawable/address_style"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="Password"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/newdeliveryboypassword"
+            android:background="@drawable/address_style"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="Conform Password"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/newdeliveryboypassword1"
+            android:background="@drawable/address_style"/>
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Cancel"
+            android:id="@+id/newdeliveryboycancelbtn"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorgrey"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@color/colorBlue"
+            android:text="Save"
+            android:id="@+id/newdeliveryboysavebtn"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"/>
+
+    </RelativeLayout>
+</LinearLayout>

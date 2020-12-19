@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "1036540053063",
+    "firebase_url": "https://mercado-20bad.firebaseio.com",
+    "project_id": "mercado-20bad",
+    "storage_bucket": "mercado-20bad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036540053063:android:d87d20e9b7defcb1fe5362",
+        "android_client_info": {
+          "package_name": "com.example.mercadoadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036540053063-md4ekbthpk4khp74j2im93dopj1cq3p7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaDc1QCR6hdEcQW6QlvqkJ09ZBzC2hS0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036540053063-md4ekbthpk4khp74j2im93dopj1cq3p7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036540053063:android:5d05851396ece146fe5362",
+        "android_client_info": {
+          "package_name": "com.example.mercadocom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036540053063-md4ekbthpk4khp74j2im93dopj1cq3p7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaDc1QCR6hdEcQW6QlvqkJ09ZBzC2hS0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036540053063-md4ekbthpk4khp74j2im93dopj1cq3p7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036540053063:android:2b9b4582844d3e37fe5362",
+        "android_client_info": {
+          "package_name": "com.example.mercadocomadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036540053063-md4ekbthpk4khp74j2im93dopj1cq3p7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaDc1QCR6hdEcQW6QlvqkJ09ZBzC2hS0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036540053063-md4ekbthpk4khp74j2im93dopj1cq3p7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036540053063:android:0827e293b35b0590fe5362",
+        "android_client_info": {
+          "package_name": "com.example.mercadodeliveryboy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036540053063-md4ekbthpk4khp74j2im93dopj1cq3p7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaDc1QCR6hdEcQW6QlvqkJ09ZBzC2hS0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036540053063-md4ekbthpk4khp74j2im93dopj1cq3p7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

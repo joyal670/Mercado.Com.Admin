@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="HOME"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/allorders"
+            android:title="NEW ORDERS"
+            android:icon="@drawable/ic_orders"/>
+
+        <item
+            android:id="@+id/ongoing"
+            android:title="ONGOING ORDERS"
+            android:icon="@drawable/ic_baseline_directions_walk_24"/>
+
+        <item
+            android:id="@+id/medicalorders"
+            android:title="MEDICAL ORDERS"
+            android:icon="@drawable/ic_baseline_local_hospital_24"/>
+
+        <item
+            android:id="@+id/users"
+            android:title="All USERS"
+            android:icon="@drawable/ic_people_black"/>
+        <item
+            android:id="@+id/shopstatistics"
+            android:title="SHOP OWNER STATISTICS"
+            android:icon="@drawable/increasegraph"/>
+        <item
+            android:id="@+id/deliverystatistics"
+            android:title="DELIVERY BOY STATISTICS"
+            android:icon="@drawable/delivery"/>
+        <item
+            android:id="@+id/products"
+            android:title="VIEW PRODUCTS"
+            android:icon="@drawable/ic_baseline_assessment_24"/>
+        <item
+            android:id="@+id/chat"
+            android:title="HELP"
+            android:icon="@drawable/ic_baseline_chat_24"/>
+        <item
+            android:id="@+id/logout"
+            android:title="LOGOUT"
+            android:icon="@drawable/ic_exit"/>
+
+    </group>
+
+</menu>
